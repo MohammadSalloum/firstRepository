@@ -1,0 +1,12 @@
+name =input("enter name\n")
+age=input("enter age\n")
+age=int(age)
+print("Welcom "+ name + " , you are " + str(age) + " year old\n")
+a=input("enter str1\n")
+b=input("enter str2\n")
+c=input("enter str3\n")
+vars=[a,b,c]
+vars_t=tuple(vars)
+print (vars)
+print (vars_t)
+print(name.lower())
