@@ -1,0 +1,14 @@
+s1="mohammad"
+s2="salloum"
+i1=12
+f1=1.4
+vars=[s1,s2,i1,f1]
+type(vars)
+type(vars[0])
+type(vars[1])
+type(vars[2])
+type(vars[3])
+print(vars[0])
+print(vars[-1])
+vars[-1]=4.3
+print(vars)
